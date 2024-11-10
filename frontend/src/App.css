@@ -1,0 +1,252 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f4f8;
+}
+
+h1 {
+  text-align: center;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+/* App.css */
+button {
+  position: relative;
+  z-index: 10;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+/* General Layout and Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Login Page */
+.login-page,
+.signup-page {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form input {
+  margin-bottom: 15px;
+}
+
+form button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Todo Page */
+.todo-page {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-page h1 {
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.todo-item {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item h3 {
+  margin: 0;
+  color: #333;
+}
+
+.todo-item p {
+  color: #666;
+}
+
+.todo-item button {
+  background-color: #ff4b5c;
+  margin-left: 10px;
+}
+
+.todo-item button:hover {
+  background-color: #ff3d4b;
+}
+
+.todo-item button.edit-btn {
+  background-color: #28a745;
+}
+
+.todo-item button.edit-btn:hover {
+  background-color: #218838;
+}
+
+/* Todo Form */
+.todo-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.todo-form input {
+  margin-bottom: 10px;
+}
+
+.todo-form button {
+  width: 100%;
+}
+
+/* Logout */
+.logout-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space out the links */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s, font-weight 0.3s;
+}
+
+nav a:hover {
+  color: #007bff; /* Highlight color on hover */
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #ffcc00; /* Change color for active link */
+}
+
+/* Responsive Navigation Bar */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column; /* Stack the links vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+}
+
+/* Style for the logout button */
+button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e53935;
+}
