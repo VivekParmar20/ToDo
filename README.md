@@ -14,5 +14,4 @@ This is a full-stack Todo application with user authentication built using Node.
 
 - **Backend**: Node.js, Express.js, MongoDB
 - **Frontend**: React, Axios, React Router
-- 
 ---
